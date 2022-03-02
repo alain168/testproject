@@ -9,7 +9,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		logger.trace("Entering application.");
-		logger.info("this is dev6");
+		logger.info("this is dev7");
 		logger.trace("Exiting application.");
 	}
 
