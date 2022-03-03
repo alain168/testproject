@@ -12,5 +12,8 @@ public class Test {
 		logger.info("this is dev7");
 		logger.trace("Exiting application.");
 	}
-
+	
+	public static int Add(int a, int b) {
+		return a + b;
+	}
 }
