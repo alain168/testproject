@@ -26,7 +26,15 @@ class FirstTest {
     void testCalcOne()
     {
         System.out.println("======TEST ONE EXECUTED=======");
-        Assertions.assertEquals( 4 , com.Test.Add(2, 2));
+        Assertions.assertEquals( 4 , com.Test.add(2, 2));
+    }
+    
+    @Tag("DEV")
+    @Test
+    void testCalcMutipy()
+    {
+        System.out.println("======TEST ONE EXECUTED=======");
+        Assertions.assertEquals( 4 , com.Test.multiply(2, 2));
     }
      
     @Tag("PROD")
@@ -35,7 +43,7 @@ class FirstTest {
     void testCalcTwo()
     {
         System.out.println("======TEST TWO EXECUTED=======");
-        Assertions.assertEquals( 6 , com.Test.Add(2, 4));
+        Assertions.assertEquals( 6 , com.Test.add(2, 4));
     }
      
     @AfterEach
